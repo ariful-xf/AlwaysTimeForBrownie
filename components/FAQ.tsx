@@ -12,23 +12,23 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     question: "Do you bake fresh daily?",
-    answer: "Yes, absolutely! Every single morning before sunrise, our team hand-crafts and fresh-bakes all of our breads, croissants, and pastries. We believe the warmth and aroma of fresh baking are essential to the true artisan experience."
+    answer: "Yes, absolutely! Every single morning before sunrise, our team hand-crafts and fresh-bakes all of our brownies, blondies, and sweet treats. We believe the warmth and aroma of fresh baking are essential to the true artisan experience."
   },
   {
-    question: "Can I order custom cakes?",
-    answer: "Yes, we specialize in creating bespoke, beautiful custom cakes for birthdays, weddings, and special events. We request at least 48 hours' notice for standard orders and up to 2 weeks for custom wedding or complex celebration cakes."
+    question: "Can I order custom brownie towers?",
+    answer: "Yes, we specialize in creating bespoke, beautiful custom brownie towers for birthdays, weddings, and special events. We request at least 48 hours' notice for standard orders and up to 2 weeks for custom wedding or complex celebration towers."
   },
   {
     question: "Do you offer delivery?",
-    answer: "We offer local courier delivery within a 10-mile radius of our Portland bakery for orders over $30. For large catering orders or custom celebration cakes, we can arrange specialized delivery. Standard delivery fees apply."
+    answer: "We offer local courier delivery within a 10-mile radius of our London bakery for orders over £30. For large catering orders or custom celebration cakes, we can arrange specialized delivery. Standard delivery fees apply."
   },
   {
     question: "Are there vegan options?",
-    answer: "Yes! While we love our European butter, we also offer a selection of vegan-friendly items. Our classic sourdough breads are naturally vegan (made from flour, water, salt, and yeast). We also bake a rotating selection of plant-based sweet pastries and cakes daily."
+    answer: "Yes! While we use premium butter, we also offer a selection of vegan-friendly items. We bake a rotating selection of plant-based vegan brownies, blondies, and sweet treats daily so everyone can enjoy a chocolate treat."
   },
   {
     question: "How early should I place orders?",
-    answer: "For standard daily breads and pastries, you can order via our online platform for same-day pickup. For larger brunch boxes, office catering, or custom cakes, we recommend placing your order 2 to 3 days in advance."
+    answer: "For standard daily brownies and blondies, you can order via our online platform for same-day pickup. For larger sharing boxes, office catering, or custom brownie towers, we recommend placing your order 2 to 3 days in advance."
   }
 ];
 

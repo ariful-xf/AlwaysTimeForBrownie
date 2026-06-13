@@ -11,14 +11,14 @@ import {
   Phone,
   Instagram,
   Facebook,
-  ChevronDown,
   MoveRight,
   Star,
 } from "lucide-react";
-import heroImg from "@/assets/crosseint.webp";
-import cakes from "@/assets/cakes.webp";
-import crosseintMore from "@/assets/crosseint-more.jpg";
-import catalog from "@/assets/catalog.jpg";
+import heroImg from "@/assets/bronies.jpg";
+import brownies1 from "@/assets/brownie-1.jpg";
+import brownies2 from "@/assets/brownie-2.jpg";
+import brownies3 from "@/assets/brownie-3.jpg";
+import catalog from "@/assets/pouring-chocolate.jpg";
 import flour from "@/assets/flour-hand.jpg";
 import flourHand from "@/assets/flour-hand-making.jpg";
 import kitchen from "@/assets/kitchen.jpg";
@@ -34,7 +34,7 @@ export default function Home() {
           <div className="relative w-full h-[85vh] min-h-[600px] rounded-[40px] md:rounded-[80px] overflow-hidden mt-20">
             <Image
               src={heroImg.src}
-              alt="Freshly baked croissants"
+              alt="Freshly baked brownies"
               fill
               className="object-cover object-center"
               referrerPolicy="no-referrer"
@@ -51,9 +51,8 @@ export default function Home() {
                 Crafted with warmth, butter & love.
               </h1>
               <p className="text-[#FFF8F4] text-md max-w-xl mb-10 opacity-90">
-                Artisan breads, buttery pastries, and handcrafted cakes baked
-                fresh every morning using slow fermentation and premium
-                ingredients.
+                Decadent chocolate brownies, blondies, and handcrafted sweet
+                treats baked fresh daily using the finest ingredients.
               </p>
               <div className="flex items-center justify-center md:justify-start flex-wrap gap-4">
                 <Link
@@ -74,7 +73,7 @@ export default function Home() {
             {/* Circular Badge */}
             <div className="hidden md:flex absolute top-12 right-12 w-32 h-32 bg-white/90 backdrop-blur-sm rounded-full flex-col items-center justify-center text-center p-4">
               <span className="text-[#2D1810] font-bold text-xs uppercase tracking-widest mb-1">
-                EST. 1998
+                EST. 2022
               </span>
               <div className="w-12 h-[1px] bg-[#2D1810]/20 my-1"></div>
               <span className="text-[#2D1810] text-[10px] uppercase tracking-wider text-center">
@@ -95,7 +94,7 @@ export default function Home() {
             Our Best Sellers
           </h2>
           <p className="text-[#5A2E1F] max-w-lg mx-auto mb-16">
-            The pastries our guests return for every morning.
+            The brownies our guests return for every single day.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
@@ -103,22 +102,22 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-64 w-full mb-6 overflow-hidden rounded-2xl">
                 <Image
-                  src={heroImg.src}
-                  alt="Butter Croissant"
+                  src={brownies2.src}
+                  alt="Classic Fudge Brownie"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <h3 className="font-serif text-2xl text-[#2D1810] mb-2">
-                Butter Croissant
+                Classic Fudge Brownie
               </h3>
               <p className="text-[#5A2E1F] text-sm mb-4 leading-relaxed line-clamp-2">
-                Flaky layers of European butter, lovingly laminated for 48
-                hours.
+                Rich, dense, and super fudgy, made with 70% dark Belgian
+                chocolate and a perfect shiny crinkle top.
               </p>
               <div className="flex items-center justify-between">
-                <span className="font-medium text-lg">$5.50</span>
+                <span className="font-medium text-lg">£5.50</span>
                 <Link
                   href="#menu"
                   className="text-[#E53E8D] text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all"
@@ -131,22 +130,22 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-64 w-full mb-6 overflow-hidden rounded-2xl">
                 <Image
-                  src={cakes.src}
-                  alt="Cinnamon Roll Deluxe"
+                  src={brownies3.src}
+                  alt="Salted Caramel Brownie"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <h3 className="font-serif text-2xl text-[#2D1810] mb-2">
-                Cinnamon Roll Deluxe
+                Salted Caramel Brownie
               </h3>
               <p className="text-[#5A2E1F] text-sm mb-4 leading-relaxed line-clamp-2">
-                Soft pillowy dough swirled with cinnamon sugar and cream cheese
-                frosting.
+                Fudgy brownie base swirled with our house-made sea salt caramel
+                and sprinkled with Maldon sea salt.
               </p>
               <div className="flex items-center justify-between">
-                <span className="font-medium text-lg">$6.75</span>
+                <span className="font-medium text-lg">£6.75</span>
                 <Link
                   href="#menu"
                   className="text-[#E53E8D] text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all"
@@ -159,22 +158,22 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-64 w-full mb-6 overflow-hidden rounded-2xl">
                 <Image
-                  src={crosseintMore.src}
-                  alt="Artisan Sourdough"
+                  src={brownies1.src}
+                  alt="Triple Chocolate Blondie"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <h3 className="font-serif text-2xl text-[#2D1810] mb-2">
-                Artisan Sourdough
+                Triple Chocolate Blondie
               </h3>
               <p className="text-[#5A2E1F] text-sm mb-4 leading-relaxed line-clamp-2">
-                72-hour fermented sourdough with a golden crust and chewy
-                interior.
+                Baked to perfection with brown butter, loaded with premium milk,
+                white, and dark chocolate chunks.
               </p>
               <div className="flex items-center justify-between">
-                <span className="font-medium text-lg">$8.00</span>
+                <span className="font-medium text-lg">£8.00</span>
                 <Link
                   href="#menu"
                   className="text-[#E53E8D] text-sm font-medium flex items-center gap-1 group-hover:gap-2 transition-all"
@@ -206,7 +205,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
             <div className="flex-1 lg:pr-12">
               <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[#7A0D1B] mb-4 block">
-                About Ovenly
+                About Always Time For Brownie
               </span>
               <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#2D1810] mb-8 leading-tight">
                 Baking happiness <br />
@@ -228,16 +227,16 @@ export default function Home() {
             <div className="flex-1 space-y-8">
               <p className="text-[#5A2E1F] text-lg leading-relaxed">
                 Every morning before sunrise, our bakers begin the sacred ritual
-                of creating bread and pastries the way they were meant to be
+                of crafting brownies and blondies the way they were meant to be
                 made—slowly, carefully, with intention.
               </p>
               <p className="text-[#5A2E1F] text-lg leading-relaxed">
-                We use only the finest organic flours, European butter, and
-                time-honored techniques passed down through generations. Each
-                loaf is shaped by hand, each croissant folded with patience.
+                We use only the finest Belgian chocolate, organic ingredients, and
+                precise baking techniques. Each batch is mixed by hand and cut
+                with absolute precision.
               </p>
               <p className="text-[#2D1810] font-medium text-lg">
-                This is slow baking. This is bread with soul. This is our gift
+                This is slow baking. This is chocolate with soul. This is our gift
                 to you.
               </p>
 
@@ -270,7 +269,7 @@ export default function Home() {
                 5K+
               </div>
               <div className="text-xs uppercase tracking-widest text-[#7A0D1B]">
-                Pastries Monthly
+                Brownies Monthly
               </div>
             </div>
             <div>
@@ -307,8 +306,8 @@ export default function Home() {
                 Fresh Daily
               </h3>
               <p className="text-[#5A2E1F] text-sm leading-relaxed">
-                Every pastry is baked before sunrise, ensuring you experience
-                the warmth of fresh-from-the-oven goodness.
+                Every batch is baked daily, ensuring you experience the warmth
+                of fresh-from-the-oven goodness.
               </p>
             </div>
 
@@ -320,8 +319,8 @@ export default function Home() {
                 Organic Ingredients
               </h3>
               <p className="text-[#5A2E1F] text-sm leading-relaxed">
-                We source only the finest organic flours, European butter, and
-                seasonal ingredients from local farms.
+                We source only the finest Belgian chocolate, organic butter, and
+                locally sourced eggs.
               </p>
             </div>
 
@@ -330,11 +329,11 @@ export default function Home() {
                 <Wheat className="w-5 h-5" />
               </div>
               <h3 className="font-serif text-xl text-[#2D1810] mb-4">
-                Slow Fermented
+                Slow Baked
               </h3>
               <p className="text-[#5A2E1F] text-sm leading-relaxed">
-                Our breads are fermented for 48-72 hours, developing deep
-                flavors and perfect texture naturally.
+                Our brownies are baked slowly and rested to develop deep chocolate
+                flavor and perfect fudgy texture.
               </p>
             </div>
 
@@ -346,8 +345,8 @@ export default function Home() {
                 Handmade Process
               </h3>
               <p className="text-[#5A2E1F] text-sm leading-relaxed">
-                Every loaf is shaped by hand, every croissant folded with
-                care—no machines, just craftsmanship.
+                Every batch is hand-mixed, baked, and sliced with care—no mass
+                machines, just true kitchen craftsmanship.
               </p>
             </div>
           </div>
@@ -361,7 +360,7 @@ export default function Home() {
           <div className="flex-1 w-full relative h-[600px] md:h-[800px] rounded-[40px] overflow-hidden shadow-xl shadow-[#2D1810]/10">
             <Image
               src={catalog.src}
-              alt="Bread shelves"
+              alt="Brownie display"
               fill
               className="object-cover"
               referrerPolicy="no-referrer"
@@ -381,30 +380,30 @@ export default function Home() {
               {/* Category */}
               <div>
                 <h3 className="text-[#2D1810] font-serif text-xl border-b border-[#2D1810]/10 pb-3 mb-6">
-                  Artisan Bread
+                  Classic Brownies
                 </h3>
                 <div className="space-y-6">
                   <div className="flex justify-between items-baseline group cursor-default">
                     <div>
                       <h4 className="font-medium text-[#2D1810]">
-                        Country Sourdough
+                        Fudge Brownie Box
                       </h4>
                       <p className="text-[#7A0D1B] text-sm mt-1">
-                        72-hour fermented, organic wheat
+                        Box of 4 rich, fudgy chocolate brownies
                       </p>
                     </div>
-                    <div className="text-[#E53E8D] font-medium">$8.50</div>
+                    <div className="text-[#E53E8D] font-medium">£8.50</div>
                   </div>
                   <div className="flex justify-between items-baseline group cursor-default">
                     <div>
                       <h4 className="font-medium text-[#2D1810]">
-                        Seeded Multigrain
+                        Salted Caramel Box
                       </h4>
                       <p className="text-[#7A0D1B] text-sm mt-1">
-                        Sunflower, sesame, flax
+                        Box of 4 gooey sea-salt caramel brownies
                       </p>
                     </div>
-                    <div className="text-[#E53E8D] font-medium">$9.00</div>
+                    <div className="text-[#E53E8D] font-medium">£9.00</div>
                   </div>
                 </div>
               </div>
@@ -412,30 +411,30 @@ export default function Home() {
               {/* Category */}
               <div>
                 <h3 className="text-[#2D1810] font-serif text-xl border-b border-[#2D1810]/10 pb-3 mb-6">
-                  Pastries
+                  Specialty Blondies
                 </h3>
                 <div className="space-y-6">
                   <div className="flex justify-between items-baseline group cursor-default">
                     <div>
                       <h4 className="font-medium text-[#2D1810]">
-                        Almond Croissant
+                        Almond Praline Blondie
                       </h4>
                       <p className="text-[#7A0D1B] text-sm mt-1">
-                        Frangipane filling, toasted almonds
+                        Box of 4 rich brown-butter blondies with almonds
                       </p>
                     </div>
-                    <div className="text-[#E53E8D] font-medium">$6.50</div>
+                    <div className="text-[#E53E8D] font-medium">£6.50</div>
                   </div>
                   <div className="flex justify-between items-baseline group cursor-default">
                     <div>
                       <h4 className="font-medium text-[#2D1810]">
-                        Pain au Chocolat
+                        Raspberry White Chocolate
                       </h4>
                       <p className="text-[#7A0D1B] text-sm mt-1">
-                        Valrhona dark chocolate
+                        Box of 4 tangy raspberry & white chocolate blondies
                       </p>
                     </div>
-                    <div className="text-[#E53E8D] font-medium">$5.75</div>
+                    <div className="text-[#E53E8D] font-medium">£5.75</div>
                   </div>
                 </div>
               </div>
@@ -443,19 +442,19 @@ export default function Home() {
               {/* Category */}
               <div>
                 <h3 className="text-[#2D1810] font-serif text-xl border-b border-[#2D1810]/10 pb-3 mb-6">
-                  Celebration Cakes
+                  Brownie Towers
                 </h3>
                 <div className="space-y-6">
                   <div className="flex justify-between items-baseline group cursor-default">
                     <div>
                       <h4 className="font-medium text-[#2D1810]">
-                        Custom Layer Cakes
+                        Custom Brownie Towers
                       </h4>
                       <p className="text-[#7A0D1B] text-sm mt-1">
-                        Personalized designs, 48hr notice
+                        Stunning brownie towers for weddings & events
                       </p>
                     </div>
-                    <div className="text-[#E53E8D] font-medium">From $65</div>
+                    <div className="text-[#E53E8D] font-medium">From £65</div>
                   </div>
                 </div>
               </div>
@@ -481,9 +480,8 @@ export default function Home() {
             </h2>
 
             <p className="font-serif text-2xl md:text-3xl lg:text-4xl leading-snug text-[#2D1810] max-w-4xl mx-auto italic mb-8">
-              "The croissants here are simply extraordinary. Every bite
-              transports me back to mornings in Paris. The care and quality are
-              unmatched."
+              "The brownies here are simply extraordinary. Every bite is pure
+              chocolate heaven. The care and quality are unmatched."
             </p>
             <div className="flex items-center justify-center gap-1 mb-4">
               {[1, 2, 3, 4, 5].map((i) => (
@@ -509,8 +507,8 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-[#5A2E1F] text-sm leading-relaxed mb-8">
-                  "Best sourdough in the city. The texture is perfect, and you
-                  can taste the slow fermentation process. Worth every penny."
+                  "Best brownies in the city. The texture is perfect—crispy on
+                  the outside, incredibly fudgy on the inside. Worth every penny."
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-[#F7A8C8]/50 flex-shrink-0"></div>
@@ -533,7 +531,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-[#5A2E1F] text-sm leading-relaxed mb-8">
-                  "Ordered a custom birthday cake and it was absolutely
+                  "Ordered a custom brownie tower and it was absolutely
                   stunning. Beautiful design and even better taste. Highly
                   recommend!"
                 </p>
@@ -561,7 +559,7 @@ export default function Home() {
                 </div>
                 <p className="text-[#5A2E1F] text-sm leading-relaxed mb-8">
                   "This bakery has become my Sunday morning ritual. The
-                  atmosphere is warm, staff are friendly, and the pastries are
+                  atmosphere is warm, staff are friendly, and the brownies are
                   divine."
                 </p>
                 <div className="flex items-center gap-4">
@@ -626,8 +624,8 @@ export default function Home() {
               Bring warmth to your next celebration.
             </h2>
             <p className="text-white/80 max-w-lg mx-auto mb-12 relative z-10">
-              Custom cakes, brunch boxes, and artisan pastries for birthdays,
-              weddings, and cozy mornings.
+              Custom brownie towers, gift boxes, and specialty treats for
+              birthdays, weddings, and celebrations.
             </p>
             <div className="flex flex-wrap justify-center gap-4 relative z-10">
               <Link
@@ -640,7 +638,7 @@ export default function Home() {
                 href="#contact"
                 className="bg-transparent border border-white/30 text-white px-8 py-3 rounded-full font-medium hover:bg-white border-hover transition-all hover:text-[#2D1810] hover:border-white text-center"
               >
-                Book a Custom Cake
+                Book a Brownie Tower
               </Link>
             </div>
           </div>
@@ -679,7 +677,7 @@ export default function Home() {
                   <p className="text-[#5A2E1F] text-sm">
                     342 Artisan Lane
                     <br />
-                    Portland, OR 97209
+                    London, E2 8DP
                   </p>
                 </div>
               </li>
@@ -706,7 +704,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-medium text-[#2D1810] mb-1">Contact</h4>
-                  <p className="text-[#5A2E1F] text-sm">(503) 555-0198</p>
+                  <p className="text-[#5A2E1F] text-sm">020 7946 0198</p>
                 </div>
               </li>
 
@@ -716,7 +714,9 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-medium text-[#2D1810] mb-1">Follow Us</h4>
-                  <p className="text-[#5A2E1F] text-sm">@alwaystimeforbrownie</p>
+                  <p className="text-[#5A2E1F] text-sm">
+                    @alwaystimeforbrownie
+                  </p>
                 </div>
               </li>
             </ul>
@@ -732,7 +732,7 @@ export default function Home() {
             </div>
 
             <a
-              href="https://maps.google.com/?q=342+Artisan+Lane+Portland+OR+97209"
+              href="https://maps.google.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#E53E8D] text-white px-8 py-3 rounded-full font-medium hover:bg-[#7A0D1B] transition-colors w-full sm:w-auto text-center inline-block"
@@ -812,7 +812,7 @@ export default function Home() {
                     href="#menu"
                     className="text-[#7A0D1B] text-sm hover:text-[#E53E8D] transition-colors"
                   >
-                    Bread
+                    Brownies
                   </Link>
                 </li>
                 <li>
@@ -820,7 +820,7 @@ export default function Home() {
                     href="#menu"
                     className="text-[#7A0D1B] text-sm hover:text-[#E53E8D] transition-colors"
                   >
-                    Pastries
+                    Blondies
                   </Link>
                 </li>
                 <li>
@@ -828,7 +828,7 @@ export default function Home() {
                     href="#menu"
                     className="text-[#7A0D1B] text-sm hover:text-[#E53E8D] transition-colors"
                   >
-                    Cakes
+                    Towers
                   </Link>
                 </li>
                 <li>

@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Always Time For Brownie',
-  description: 'Artisan breads, buttery pastries, and handcrafted cakes baked fresh every morning.',
+  title: 'Always Time For A Brownie',
+  description: 'Decadent chocolate brownies, blondies, and handcrafted sweet treats baked fresh daily.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
